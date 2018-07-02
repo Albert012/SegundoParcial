@@ -50,7 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\IRepository.cs" />
+    <Compile Include="BLL\MantenimientosBLL.cs" />
+    <Compile Include="BLL\Repositorio.cs" />
+    <Compile Include="BLL\VehiculosBLL.cs" />
     <Compile Include="DAL\Contexto.cs" />
+    <Compile Include="Entidades\Mantenimientos.cs" />
+    <Compile Include="Entidades\MantenimientosDetalle.cs" />
+    <Compile Include="Entidades\Vehiculos.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,8 +110,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BLL\" />
-    <Folder Include="Entidades\" />
     <Folder Include="UI\Reportes\" />
   </ItemGroup>
   <ItemGroup>
