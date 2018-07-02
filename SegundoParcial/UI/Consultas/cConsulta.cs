@@ -15,5 +15,10 @@ namespace SegundoParcial.UI.Consultas
         {
             InitializeComponent();
         }
+
+        private void cConsulta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
