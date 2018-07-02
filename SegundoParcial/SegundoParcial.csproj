@@ -65,11 +65,11 @@
     <Compile Include="UI\Consultas\cConsulta.Designer.cs">
       <DependentUpon>cConsulta.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Registros\rRegistro.cs">
+    <Compile Include="UI\Registros\rMatenimiento.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Registros\rRegistro.Designer.cs">
-      <DependentUpon>rRegistro.cs</DependentUpon>
+    <Compile Include="UI\Registros\rMatenimiento.Designer.cs">
+      <DependentUpon>rMatenimiento.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -87,8 +87,8 @@
     <EmbeddedResource Include="UI\Consultas\cConsulta.resx">
       <DependentUpon>cConsulta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Registros\rRegistro.resx">
-      <DependentUpon>rRegistro.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Registros\rMatenimiento.resx">
+      <DependentUpon>rMatenimiento.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="packages.config" />

@@ -26,7 +26,7 @@ namespace SegundoParcial
 
         private void registroToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            rRegistro reg = new rRegistro();
+            rMatenimiento reg = new rMatenimiento();
             reg.MdiParent = this.MdiParent;
             reg.Show();
         }
